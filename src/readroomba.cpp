@@ -44,6 +44,7 @@ int main(int argc, char **argv)
 			temp[i] = *p;
             //temp[i] = (int)*p;
             cout <<"P value: " << (int)temp[i] <<"end" <<endl;
+            ROS_INFO_STREAM("P value: " << (int)temp[i] <<"end");
             i++;
         }
 		
