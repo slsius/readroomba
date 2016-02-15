@@ -56,7 +56,7 @@ int main(int argc, char **argv)
 			tempstr = tempstr + temp[i];
 
 		}
-		ROS_INFO_STREAM("***********************");
+		//ROS_INFO_STREAM("***********************");
 		
 		std_msgs::String msg;
 
