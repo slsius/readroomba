@@ -51,8 +51,8 @@ int main(int argc, char **argv)
 		string tempstr;
 		for(int i=0;i<6;i++)
 		{
-			ROS_INFO_STREAM("Packet" << i <<": " << temp[i]);
-			ROS_INFO_STREAM("        Packet" << i <<": " << (int)temp[i]);
+			//ROS_INFO_STREAM("Packet" << i <<": " << temp[i]);
+			//ROS_INFO_STREAM("        Packet" << i <<": " << (int)temp[i]);
 			tempstr = tempstr + temp[i];
 
 		}
