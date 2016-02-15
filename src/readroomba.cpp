@@ -41,7 +41,7 @@ int main(int argc, char **argv)
         {
             //printf("%02X\n", *p);
             //cout << (int)*p << endl;
-			temp[i] = *p
+			temp[i] = *p;
             //temp[i] = (int)*p;
             cout <<"P value: " << (int)temp[i] <<"end" <<endl;
             i++;
