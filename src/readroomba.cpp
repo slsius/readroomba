@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 	Ret = LS.Open(DEVICE_PORT,115200); 
 	if (Ret!=1) {                                                           // If an error occured...
         printf ("Error while opening port. Permission problem ?\n");        // ... display a message ...
-        ROS_INFO("Error while opening port")
+        ROS_INFO("Error while opening port");
 		return Ret;                                                         // ... quit the application
     }
 	
