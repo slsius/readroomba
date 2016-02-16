@@ -55,12 +55,12 @@ int main(int argc, char **argv)
 		for(int i=0;i<6;i++)
 		{
 			//ROS_INFO_STREAM("Packet" << i <<": " << temp[i]);
-			//ROS_INFO_STREAM("        Packet" << i <<": " << (int)temp[i]);
+			ROS_INFO_STREAM("        Packet" << i <<": " << (int)temp[i]);
 			//tempstr = tempstr + to_string((int)temp[i]);
 			convert << (int)temp[i];
 			tempstr = tempstr + convert.str();
 		}
-		ROS_INFO_STREAM(tempstr);
+		ROS_INFO_STREAM("     "<<tempstr);
 		ROS_INFO_STREAM("***********************");
 		
 		std_msgs::String msg;
