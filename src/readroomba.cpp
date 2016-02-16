@@ -57,7 +57,8 @@ int main(int argc, char **argv)
 		std::stringstream convert;
 		for(int i=0;i<6;i++)
 		{
-			ROS_INFO_STREAM("Packet" << i <<": " << temp[i]);
+			//ROS_INFO_STREAM("Packet" << i <<": " << temp[i]);
+			ROS_INFO("%02X", temp[i]);
 			ROS_INFO_STREAM("        Packet" << i <<": " << (int)temp[i]);
 			//tempstr = tempstr + to_string((int)temp[i]);
 			convert << (int)temp[i];
