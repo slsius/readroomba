@@ -86,7 +86,7 @@ int main(int argc, char **argv)
 		
 		
 		std_msgs::String msg;
-		convert<<(int)date[3];
+		convert<<(int)data[3];
 		tempstr = convert.str();
 		std::stringstream ss;
 		ss.str(tempstr);
