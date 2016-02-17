@@ -18,7 +18,7 @@ using namespace std;
 int main(int argc, char **argv)
 {
 	serialib LS;                                                            // Object of the serialib class
-    int Ret,i;                                                                // Used for return values
+    int Ret,i=0;                                                                // Used for return values
     char Buffer[128];
 	char temp[6];
 	
@@ -53,7 +53,7 @@ int main(int argc, char **argv)
         {
             //printf("%02X\n", *p);
             //cout << (int)*p << endl;
-			//ROS_INFO_STREAM("P value"<<(int)*p);
+			ROS_INFO_STREAM("P value"<<(int)*p);
 			temp[i] = *p;
             //temp[i] = (int)*p;
             //cout <<"P value: " << (int)temp[i] <<"end" <<endl;
