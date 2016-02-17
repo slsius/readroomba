@@ -60,7 +60,7 @@ int main(int argc, char **argv)
             i++;
         }
 		
-		if(i>6)
+		if(i>=6)
 		{
 			i =0;
 		}
