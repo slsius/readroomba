@@ -106,7 +106,7 @@ int main(int argc, char **argv)
 		ROS_INFO_STREAM(tempstr);
 		
 		ROS_INFO_STREAM("***********************");
-		
+		data.clear();
 		
 		ros::spinOnce();
 		loop_rate.sleep();
